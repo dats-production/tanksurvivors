@@ -1,0 +1,169 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b15f6c0f7432473bb03a3464856b63a4, type: 3}
+  m_Name: UpgradesBase
+  m_EditorClassIdentifier: 
+  upgrades:
+  - type: 0
+    name: Tank gun
+    icon: {fileID: 21300000, guid: ee4032dc3e4dbaf41b58ae8b12a2d1ab, type: 3}
+    isMaxLevel: 0
+    unlockedLevel: 1
+    levels:
+    - description: Fires at the nearest enemy.
+      value: 0
+    - description: Increases aim speed by 50%.
+      value: 0.5
+    - description: Damage up by 10.
+      value: 10
+    - description: Fires 1 more projectile.
+      value: 1
+    - description: Cooldown reduced by 0.3 seconds.
+      value: 0.3
+    - description: Increases bullet speed by 30%.
+      value: 0.3
+    - description: Damage up by 10.
+      value: 10
+    - description: Fires 1 more projectile.
+      value: 1
+  - type: 1
+    name: Rocket Louncher
+    icon: {fileID: 21300000, guid: de04231178e23b0488475a5693f19f99, type: 3}
+    isMaxLevel: 0
+    unlockedLevel: 1
+    levels:
+    - description: Fires at a random enemy, deals splash damage.
+      value: 0
+    - description: Fires 1 more projectile.
+      value: 1
+    - description: Increases missiles speed by 30%.
+      value: 0.3
+    - description: Damage up by 10.
+      value: 10
+    - description: Fires 1 more projectile.
+      value: 1
+    - description: Explosion area up by 50%.
+      value: 0.5
+    - description: Fires 1 more projectile.
+      value: 1
+    - description: Damage up by 20.
+      value: 20
+  - type: 2
+    name: Landmines
+    icon: {fileID: 21300000, guid: a754f6b352efd4b45852b6141eaea239, type: 3}
+    isMaxLevel: 0
+    unlockedLevel: 0
+    levels:
+    - description: Places a landmine, deals splash damage.
+      value: 0
+    - description: Explosion area up by 30%.
+      value: 0.3
+    - description: Cooldown reduced by 0.3 seconds.
+      value: 0.3
+    - description: Trigger area up by 50%.
+      value: 0.5
+    - description: Damage up by 10.
+      value: 10
+    - description: Explosion area up by 30%.
+      value: 0.3
+    - description: Cooldown reduced by 0.3 seconds.
+      value: 0.3
+    - description: Damage up by 20.
+      value: 20
+  - type: 3
+    name: Psychic Field
+    icon: {fileID: 21300000, guid: da6f12aa813042940a3bf2375633c262, type: 3}
+    isMaxLevel: 0
+    unlockedLevel: 0
+    levels:
+    - description: Damages nearby enemies.
+      value: 0
+    - description: Area up by 30%.
+      value: 0.3
+    - description: Damage up by 5.
+      value: 5
+    - description: Cooldown reduced by 0.2 seconds.
+      value: 0.2
+    - description: Area up by 30%.
+      value: 0.3
+    - description: Damage up by 5.
+      value: 5
+    - description: Cooldown reduced by 0.3 seconds.
+      value: 0.3
+    - description: Area up by 30%.
+      value: 0.3
+  - type: 4
+    name: Health
+    icon: {fileID: 21300000, guid: 6543838410eab4447a71d8ca8e92b6e7, type: 3}
+    isMaxLevel: 0
+    unlockedLevel: 0
+    levels:
+    - description: Heals player. Max Health up by 20%.
+      value: 0.2
+    - description: Heals player. Max Health up by 20%.
+      value: 0.2
+    - description: Heals player. Max Health up by 20%.
+      value: 0.2
+    - description: Heals player. Max Health up by 20%.
+      value: 0.2
+    - description: Heals player. Max Health up by 20%.
+      value: 0.2
+    - description: Heals player. Max Health up by 20%.
+      value: 0.2
+    - description: Heals player. Max Health up by 20%.
+      value: 0.2
+    - description: Heals player. Max Health up by 20%.
+      value: 0.2
+  - type: 5
+    name: Speed
+    icon: {fileID: 21300000, guid: b1f341e5d35df9041a447639519025a8, type: 3}
+    isMaxLevel: 0
+    unlockedLevel: 0
+    levels:
+    - description: Character moves 10% faster.
+      value: 0.1
+    - description: Character moves 10% faster.
+      value: 0.1
+    - description: Character moves 10% faster.
+      value: 0.1
+    - description: Character moves 10% faster.
+      value: 0.1
+    - description: Character moves 10% faster.
+      value: 0.1
+    - description: Character moves 10% faster.
+      value: 0.1
+    - description: Character moves 10% faster.
+      value: 0.1
+    - description: Character moves 10% faster.
+      value: 0.1
+  - type: 6
+    name: Magnetic Field
+    icon: {fileID: 21300000, guid: 60178051e9fcc7c4f88dbb9bba35b452, type: 3}
+    isMaxLevel: 0
+    unlockedLevel: 0
+    levels:
+    - description: Character pickups item from further away.
+      value: 1
+    - description: Pickup range increases by 33%.
+      value: 0.33
+    - description: Pickup range increases by 25%.
+      value: 0.25
+    - description: Pickup range increases by 20%.
+      value: 0.2
+    - description: Pickup range increases by 25%.
+      value: 0.2
+    - description: Pickup range increases by 30%.
+      value: 0.3
+    - description: Pickup range increases by 20%.
+      value: 0.2
+    - description: Pickup range increases by 33%.
+      value: 0.33

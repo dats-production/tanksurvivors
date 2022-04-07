@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a8bfd8001fa4a14b7409455bdde0d4d, type: 3}
+  m_Name: CommonParamsBase
+  m_EditorClassIdentifier: 
+  depressionPercentStep:
+    maxStepsCount: 5
+    stepPercent: 5
+  gameActionSecondsTimer: 25
+  gameProperties:
+    getDefault:
+      Budget: 30000
+      ExhaustLevel: 100
+      GovernmentRelations: 40
+      MarketStockPosition: 350
+      Recognition: 250000
+    maxValues:
+      Budget: 100000
+      ExhaustLevel: 100
+      GovernmentRelations: 120
+      MarketStockPosition: 1000
+      Recognition: 1000000
+  tasksTable:
+    m_TableReference:
+      m_TableCollectionName: GUID:36c6f65e141c2054cbc50123746d394e
+  reportsTable:
+    m_TableReference:
+      m_TableCollectionName: GUID:0ec8e01d430ddee4ca275851ec763ee5
+  articlesTable:
+    m_TableReference:
+      m_TableCollectionName: GUID:9a417e8801e52c745a27ee38477cb2e3
+  tutorialTexts:
+  - id: 0
+    value:
+      m_TableReference:
+        m_TableCollectionName: GUID:b6746119f7f7da949bd7db3c3cecfd23
+      m_TableEntryReference:
+        m_KeyId: 7010364919808
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 1
+  - id: 1
+    value:
+      m_TableReference:
+        m_TableCollectionName: GUID:b6746119f7f7da949bd7db3c3cecfd23
+      m_TableEntryReference:
+        m_KeyId: 7128241639424
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 1
+  - id: 2
+    value:
+      m_TableReference:
+        m_TableCollectionName: GUID:b6746119f7f7da949bd7db3c3cecfd23
+      m_TableEntryReference:
+        m_KeyId: 7166120398848
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 1
+  - id: 3
+    value:
+      m_TableReference:
+        m_TableCollectionName: GUID:b6746119f7f7da949bd7db3c3cecfd23
+      m_TableEntryReference:
+        m_KeyId: 7227579535360
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 1
+  - id: 4
+    value:
+      m_TableReference:
+        m_TableCollectionName: GUID:b6746119f7f7da949bd7db3c3cecfd23
+      m_TableEntryReference:
+        m_KeyId: 7268138455040
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 1
+  secondInDay: 180

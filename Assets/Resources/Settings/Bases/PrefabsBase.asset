@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1acc22492de4aa289f314eea92bbd67, type: 3}
+  m_Name: PrefabsBase
+  m_EditorClassIdentifier: 
+  prefabs:
+  - Name: MainCamera
+    GameObject: {fileID: 2181769509312897065, guid: 40668d4469e9b774397e05935f8264a1, type: 3}
+  - Name: Chunk
+    GameObject: {fileID: 2408297808797158297, guid: d2f6a7c36afed2a4bb65160fc877eaf5, type: 3}
+  - Name: Enemy
+    GameObject: {fileID: 2573783292608375690, guid: 627d0e2f328b8a4439dc77417a34c271, type: 3}
+  - Name: Bullet
+    GameObject: {fileID: 224698156151034823, guid: 085df5f6fcc81c442bfbb6890de3bc4b, type: 3}
+  - Name: Rocket
+    GameObject: {fileID: 224698156151034823, guid: 942199a858d9a6345a69ab974852d0b3, type: 3}
+  - Name: Mine
+    GameObject: {fileID: 224698156151034823, guid: aa9ffd1daf399ee4594442d79af95ab8, type: 3}
+  - Name: Experience
+    GameObject: {fileID: 224698156151034823, guid: bad382f288bf5c44e883c5a79cb5a698, type: 3}
+  - Name: DamageUI
+    GameObject: {fileID: 1580197202906055804, guid: 897c62cd774ecbe4d8f2ba017a700a80, type: 3}
+  - Name: Explosion
+    GameObject: {fileID: 2905670398922888488, guid: b408e630c7859e74aa4f213b42401085, type: 3}
+  - Name: Explosion
+    GameObject: {fileID: 2905670398922888488, guid: b408e630c7859e74aa4f213b42401085, type: 3}
+  - Name: Sparks
+    GameObject: {fileID: 658215125866237165, guid: bb0b895ffb67b23418b27741d4c7aed2, type: 3}

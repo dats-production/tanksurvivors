@@ -1,0 +1,278 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0913fd90f7a4477d8a769488729eda89, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: 
+  playerCfg:
+    baseSpeed: 10
+    sprintSpeed: 10
+    triggerDistance: 1.8
+    health: 100
+  experienceCfg:
+    pickUpRadius: 2
+    poolCount: 10
+    multiplier: 1
+  weaponsCfg:
+    w1:
+      name: BulletGun
+      level: 1
+      damageMin: 7
+      damageMax: 13
+      fireRate: 1
+      attackRange: 25
+      rotationSpeed: 10
+      bulletCountPerShot: 1
+      bulletSpeed: 70
+      bulletRadius: 0.3
+      bulletFlyDistance: 50
+      poolCount: 10
+    w2:
+      name: MissleLauncher
+      level: 1
+      damageMin: 5
+      damageMax: 10
+      explosionRadius: 5
+      fireRate: 2
+      attackRange: 20
+      missileCountPerShot: 1
+      missileSpeed: 10
+      missileRadius: 0.25
+      poolCount: 10
+    w3:
+      name: Mine
+      level: 1
+      damageMin: 5
+      damageMax: 10
+      triggerDistance: 2
+      fireRate: 3
+      explosionRadius: 5
+      poolCount: 10
+    w4:
+      name: Psy Field
+      level: 1
+      damageMin: 3
+      damageMax: 7
+      fireRate: 1
+      attackRange: 5
+  enemyWavesCfg:
+    enemyWave:
+    - name: Flying 1
+      startTime: 0
+      endTime: 60
+      spawnRate: 1
+      enemiesPerSpawn: 1
+      enemy:
+        enemyType: 1
+        health: 1
+        damage: 20
+        moveSpeed: 5
+        exp: 25
+    - name: Hydraliscs 1
+      startTime: 60
+      endTime: 120
+      spawnRate: 1
+      enemiesPerSpawn: 1
+      enemy:
+        enemyType: 0
+        health: 20
+        damage: 20
+        moveSpeed: 3
+        exp: 25
+    - name: Flying 2
+      startTime: 120
+      endTime: 180
+      spawnRate: 1
+      enemiesPerSpawn: 3
+      enemy:
+        enemyType: 1
+        health: 1
+        damage: 20
+        moveSpeed: 5
+        exp: 25
+    - name: BOSS Flying
+      startTime: 180
+      endTime: 181
+      spawnRate: 1
+      enemiesPerSpawn: 1
+      enemy:
+        enemyType: 5
+        health: 1000
+        damage: 70
+        moveSpeed: 4
+        exp: 100
+    - name: Dron 1
+      startTime: 180
+      endTime: 240
+      spawnRate: 1
+      enemiesPerSpawn: 1
+      enemy:
+        enemyType: 2
+        health: 80
+        damage: 30
+        moveSpeed: 4
+        exp: 25
+    - name: Hydraliscs 2
+      startTime: 240
+      endTime: 300
+      spawnRate: 1
+      enemiesPerSpawn: 1
+      enemy:
+        enemyType: 0
+        health: 50
+        damage: 30
+        moveSpeed: 3
+        exp: 25
+    - name: BOSS Hydralisc 1
+      startTime: 300
+      endTime: 301
+      spawnRate: 1
+      enemiesPerSpawn: 1
+      enemy:
+        enemyType: 4
+        health: 2000
+        damage: 100
+        moveSpeed: 3
+        exp: 100
+    - name: Bom-bom 1
+      startTime: 300
+      endTime: 360
+      spawnRate: 1
+      enemiesPerSpawn: 1
+      enemy:
+        enemyType: 3
+        health: 500
+        damage: 80
+        moveSpeed: 3
+        exp: 80
+    - name: Hydraliscs 3
+      startTime: 360
+      endTime: 420
+      spawnRate: 1
+      enemiesPerSpawn: 1
+      enemy:
+        enemyType: 0
+        health: 80
+        damage: 40
+        moveSpeed: 3
+        exp: 25
+    - name: Flying 3
+      startTime: 420
+      endTime: 480
+      spawnRate: 1
+      enemiesPerSpawn: 2
+      enemy:
+        enemyType: 1
+        health: 50
+        damage: 40
+        moveSpeed: 5
+        exp: 25
+    - name: Dron 2
+      startTime: 480
+      endTime: 540
+      spawnRate: 1
+      enemiesPerSpawn: 1
+      enemy:
+        enemyType: 2
+        health: 100
+        damage: 40
+        moveSpeed: 4
+        exp: 25
+    - name: BOSS Flying Multy
+      startTime: 540
+      endTime: 600
+      spawnRate: 1
+      enemiesPerSpawn: 1
+      enemy:
+        enemyType: 5
+        health: 500
+        damage: 70
+        moveSpeed: 5
+        exp: 80
+    - name: BOSS Dron
+      startTime: 600
+      endTime: 601
+      spawnRate: 1
+      enemiesPerSpawn: 1
+      enemy:
+        enemyType: 6
+        health: 3000
+        damage: 100
+        moveSpeed: 3
+        exp: 100
+    - name: Dron 3
+      startTime: 600
+      endTime: 660
+      spawnRate: 1
+      enemiesPerSpawn: 1
+      enemy:
+        enemyType: 2
+        health: 100
+        damage: 30
+        moveSpeed: 4
+        exp: 25
+    - name: BOSS Bom-bom
+      startTime: 660
+      endTime: 661
+      spawnRate: 1
+      enemiesPerSpawn: 1
+      enemy:
+        enemyType: 7
+        health: 2000
+        damage: 100
+        moveSpeed: 3
+        exp: 100
+    - name: Bom-bom 2
+      startTime: 660
+      endTime: 680
+      spawnRate: 1
+      enemiesPerSpawn: 20
+      enemy:
+        enemyType: 3
+        health: 100
+        damage: 30
+        moveSpeed: 2
+        exp: 50
+    - name: BOSS Hydralisc Multy
+      startTime: 720
+      endTime: 780
+      spawnRate: 1
+      enemiesPerSpawn: 1
+      enemy:
+        enemyType: 4
+        health: 500
+        damage: 100
+        moveSpeed: 3
+        exp: 100
+    - name: BOSS Dron Multy
+      startTime: 780
+      endTime: 840
+      spawnRate: 1
+      enemiesPerSpawn: 1
+      enemy:
+        enemyType: 6
+        health: 700
+        damage: 100
+        moveSpeed: 7
+        exp: 100
+    - name: BOSS Bom-bom Multy
+      startTime: 840
+      endTime: 700
+      spawnRate: 1
+      enemiesPerSpawn: 3
+      enemy:
+        enemyType: 7
+        health: 2000
+        damage: 100
+        moveSpeed: 11
+        exp: 100
+  globalCfg:
+    poolPos: {x: 1000, y: 1000, z: 1000}
